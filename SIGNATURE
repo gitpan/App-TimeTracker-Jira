@@ -1,0 +1,48 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 dbf214a94da591359d78627e7f5926ec50ad6d8e Changes
+SHA1 549ddf0b9072eec23da773fcdbf9f09aab4e0920 INSTALL
+SHA1 2861d879d1589f82c5f32628a64630a4ee82b183 LICENSE
+SHA1 5f00884cd47b188a7363232e8134487c5e80675a MANIFEST
+SHA1 baa080f1a52d77056d82d388a6d9a4dd839b5abe MANIFEST.SKIP
+SHA1 5156732aeebc356a4cea88a7a8f71cce8258e4d4 META.json
+SHA1 74be8d869a5c3da911d202a0cde49c55e36abbb3 META.yml
+SHA1 792ebc76c36122a8015979910794519c95d13c50 Makefile.PL
+SHA1 f1bc56adbe9f10901cd6ad99bfc94c89cc5da505 README.md
+SHA1 ce70c02e3c40f5d78bc2f3e1c563c38f55f2a021 cpanfile
+SHA1 8f2c0b2a65c7c27790de79a5ef4fcf75de029431 lib/App/TimeTracker/Command/Jira.pm
+SHA1 b0664b3df28ab063f042e098fec3e70bc6263e65 t/00-load.t
+SHA1 473906254ecd96009795d4b7fbc82fac48c03ecd t/000-report-versions.t
+SHA1 fddf7f2ff20be97e530614131527af30a1c35966 t/perlcriticrc
+SHA1 87768d177f8c2e2df9c591cde869e7c8a245555e t/release-dist-manifest.t
+SHA1 d165f8ec069354540640243399f536af695046dd t/release-distmeta.t
+SHA1 a032c41ef6887fab1b900669c2d304fab46680e2 t/release-eol.t
+SHA1 0068bf52fc88b39cc6509199f19a77890edb9bb0 t/release-has-version.t
+SHA1 961a1e2c92d836c8cad2d34b784cbc75345dec63 t/release-kwalitee.t
+SHA1 22a34db226ba1a1bdec024576737286038af0c0e t/release-no-tabs.t
+SHA1 5cf386f49901e8ccaad5ab271036754d67114081 t/release-pod-coverage.t
+SHA1 dc3eefcab3399f9a70861c332bb4a81ddcbb45e4 t/release-pod-syntax.t
+SHA1 bf4fdda27bd4e8ec177c38cca43083317494cba8 t/release-portability.t
+SHA1 e647f89568819f60f56e2c7202e10b21acb77652 t/release-synopsis.t
+SHA1 d7221447937ab93002a123801def7be09748c106 t/release-unused-vars.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iEYEARECAAYFAlQTYs4ACgkQeM3QI14qZoj6CACbBpSOT7vk4dos7FiKjg5SiycC
+53gAnj4t9un4eRLbnea3+CshCZTAGI9p
+=4SoP
+-----END PGP SIGNATURE-----
